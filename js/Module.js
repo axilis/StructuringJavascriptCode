@@ -1,9 +1,9 @@
-(function ($) {
+(function (App, $) {
     "use strict";
 
     $(function () {
         
     })
     
-})(jQuery);
+})(App, jQuery);
 
