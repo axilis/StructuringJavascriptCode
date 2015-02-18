@@ -1,9 +1,9 @@
 (function () {
     "use strict";
 
-    var bonzo = "bonzo";
+    $(function () {
+        console.log("bonzo");
+    })
     
 })();
-
-console.log(bonzo);
 
