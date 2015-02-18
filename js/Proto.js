@@ -2,8 +2,8 @@
     "use strict";
 
     $(function () {
-        var monkeyCalc = new Calculator({ containerSel: "#monkey" });
-        monkeyCalc.Init();
+        var monkeyCalc = new App.Calculator({ containerSel: "#monkey" });
+        monkeyCalc.init();
     })
     
 })(jQuery);
