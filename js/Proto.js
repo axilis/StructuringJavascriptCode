@@ -2,7 +2,8 @@
     "use strict";
 
     $(function () {
-        console.log("bonzo");
+        var monkeyCalc = new Calculator({ containerSel: "#monkey" });
+        monkeyCalc.Init();
     })
     
 })(jQuery);
