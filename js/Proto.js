@@ -1,4 +1,4 @@
-(function ($) {
+(function (App, $) {
     "use strict";
 
     $(function () {
@@ -9,5 +9,5 @@
         cowCalc.init();
     })
     
-})(jQuery);
+})(App, jQuery);
 
