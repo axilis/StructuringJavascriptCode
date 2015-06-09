@@ -2,10 +2,10 @@
     "use strict";
 
     $(function () {
-        var monkeyCalc = App.calculator({containerSel: "#monkey"});
+        var monkeyCalc = App.Calculator({containerSel: "#monkey"});
         monkeyCalc.init();
         
-        var cowCalc = App.calculator({containerSel: "#cow"});
+        var cowCalc = App.Calculator({containerSel: "#cow"});
         cowCalc.init();
     })
     

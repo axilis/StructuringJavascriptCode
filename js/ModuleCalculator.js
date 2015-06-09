@@ -1,6 +1,6 @@
 (function(App, $) {
     "use strict";
-    var calculator = function() {
+    var Calculator = function() {
         console.log("module calculator constructor");
         
         var init = function () {
@@ -11,6 +11,6 @@
             init: init
         }
     };
-    App.calculator = calculator;
+    App.Calculator = Calculator;
 })(App, jQuery);
 
