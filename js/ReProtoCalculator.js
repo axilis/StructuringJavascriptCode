@@ -14,13 +14,12 @@
             equalsSel: ".equals",
             resultSel: ".result",
         };
-        var fst, snd, equals, result;
 
         var init = function() {
             var _this = this;
 
             _this.settings = {};
-            $.extend(_this.settings, defaultSettings, this.options);
+            $.extend(_this.settings, defaultSettings, _this.options);
 
             var container = $(_this.settings.containerSel);
             _this.fst = container.find(_this.settings.fstSel);

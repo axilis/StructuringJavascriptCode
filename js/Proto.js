@@ -7,7 +7,7 @@
 
         var cowCalc = new App.Calculator({ containerSel: "#cow" });
         cowCalc.init();
-    })
+    });
     
 })(App, jQuery);
 
