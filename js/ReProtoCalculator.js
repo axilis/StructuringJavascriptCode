@@ -2,6 +2,8 @@
     "use strict";
     var Calculator = function(options) {
         this.options = options;
+
+        this.calculate.bind(this);
     };
 
     Calculator.prototype = (function () {
@@ -27,11 +29,12 @@
             _this.result = container.find(_this.settings.resultSel);
             
             _this.equals.click(function () {
-                calculate(_this);
+                _this.calculate();
             });
         };
 
-        var calculate = function(_this) {
+        var calculate = function() {
+            var _this = this;
             var a = +_this.fst.val();
             var b = +_this.snd.val();
             var c = a + b;
@@ -39,7 +42,8 @@
         }
 
         return {
-            init: init
+            init: init,
+            calculate: calculate
         };
     })();
 
